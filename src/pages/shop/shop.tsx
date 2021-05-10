@@ -1,8 +1,7 @@
 import {Text, View} from "@tarojs/components";
-import {AtButton} from "taro-ui";
-import "./personal.sass";
+import "./shop.sass";
 
-const Personal = () => {
+const Shop = () => {
   return (
     <View className='personal'>
       <Text>Hello personal!</Text>
@@ -10,4 +9,4 @@ const Personal = () => {
   )
 }
 
-export default Personal
+export default Shop

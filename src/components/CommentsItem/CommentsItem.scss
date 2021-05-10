@@ -1,0 +1,39 @@
+.sender-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sender-avatar {
+  margin-right: 20px;
+}
+
+.sender-other {
+
+}
+
+.sender-name {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.send-time {
+  font-size: 24px;
+  color: #8a8a8a;
+}
+
+.comments-title, {
+  font-size: 34px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.comments-list {
+  padding: 10px 0;
+}
+
+.comments-text {
+  font-size: 24px;
+  color: rgba(0, 0, 0, .8);
+  padding-left: 100px;
+}

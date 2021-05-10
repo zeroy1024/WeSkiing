@@ -1,4 +1,4 @@
 export default {
-  navigationBarTitleText: '首页',
+  navigationBarTitleText: '圈子',
   navigationStyle: 'custom',
 };

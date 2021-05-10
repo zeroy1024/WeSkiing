@@ -1,0 +1,36 @@
+// custom themes
+$color-brand: #000000;
+$color-brand-light: #404040;
+$color-brand-dark: #000000;
+@import "~taro-ui/dist/style/index.scss";
+
+// renew at style
+.at-divider {
+  height: 80px;
+}
+
+.at-divider__line {
+  background-color: #dbdbdb;
+}
+
+.at-tabs__header {
+  position: fixed;
+  z-index: 10000;
+}
+
+.at-tabs__item {
+  flex: none;
+  padding: 10px 24px;
+}
+
+.at-tabs__item--active {
+  color: #000000;
+  font-weight: 800;
+}
+
+.at-tabs__item-underline {
+  left: 30%;
+  width: 40%;
+  height: 3PX;
+  border-radius: 15PX;
+}
