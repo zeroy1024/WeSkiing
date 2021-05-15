@@ -1,0 +1,107 @@
+.shop-recommend-card {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shop-recommend-left {
+  width: 47.5%;
+  height: 100%;
+  border-radius: 8PX;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.shop-recommend-left::before {
+  content: "";
+  border-radius: 8PX;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-attachment: fixed;
+}
+
+.shop-recommend-left .left-content {
+  padding: 36px 24px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.shop-recommend-left .left-title {
+  font-size: 38px;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+}
+
+.shop-recommend-left .left-text {
+  margin-top: 20px;
+  font-size: 24px;
+  color: rgba(255, 255, 255, .9);
+  font-weight: 600;
+  text-align: center;
+  //display: flex;
+  //justify-content: space-between;
+  //align-items: baseline;
+
+  .price {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+}
+
+.shop-recommend-right {
+  width: 47.5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.shop-recommend-right-item {
+  width: 100%;
+  height: 30%;
+  border-radius: 8PX;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.right-content {
+  padding: 12px 24px;
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-img {
+  width: 130px;
+  height: 130px;
+}
+
+.right-text {
+  text-align: center;
+
+  .title {
+    font-size: 26px;
+    font-weight: 800;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+
+  .price {
+    font-size: 24px;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 600;
+  }
+}

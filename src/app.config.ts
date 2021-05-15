@@ -5,6 +5,7 @@ export default {
     'pages/shop/shop',
     'pages/me/me',
     'pages/sub-page/article/article',
+    'pages/sub-page/product-list/product-list',
   ],
   window: {
     backgroundTextStyle: 'light',

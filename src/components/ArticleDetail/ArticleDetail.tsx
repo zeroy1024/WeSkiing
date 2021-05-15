@@ -32,7 +32,7 @@ const ArticleDetail = (props: PropsWithChildren<IArticleListItemProps>) => {
       <View className={'author-info'}>
         <AtAvatar
           className={'author-avatar'}
-          image={require('/src/assets/img/article/head/head.png')}
+          image={'//cdn.zeroy.net/img/weapp/article/head/head.png'}
           size={'small'}
           circle />
         <View className={'author-other'}>

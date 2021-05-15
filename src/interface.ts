@@ -30,3 +30,14 @@ export interface ICircleItem {
   about: string
   images: string
 }
+
+export interface IProductList {
+  image: string
+  productTitle: string
+  productPrice: string | number
+}
+
+export interface IProductSearch {
+  searchValue: string
+  productList: IProductList[]
+}

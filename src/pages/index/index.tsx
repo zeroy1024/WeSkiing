@@ -112,10 +112,10 @@ const Index = () => {
               autoplay
             >
               <SwiperItem className='swiper-item'>
-                <Image src={require('/src/assets/img/banner/banner.jpg')} style={{ width: '100%' }} />
+                <Image src={'//cdn.zeroy.net/img/weapp/banner/banner.jpg'} style={{ width: '100%' }} />
               </SwiperItem>
               <SwiperItem className='swiper-item'>
-                <Image src={require('/src/assets/img/banner/banner1.jpg')} style={{ width: '100%' }} />
+                <Image src={'//cdn.zeroy.net/img/weapp/banner/banner1.jpg'} style={{ width: '100%' }} />
               </SwiperItem>
             </Swiper>
             <AtDivider />
