@@ -44,6 +44,19 @@
   font-size: 26px;
 }
 
+.article-img-group {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article-img {
+  max-width: 30%;
+  height: 140px;
+  margin: 10px;
+  border-radius: 8PX;
+}
+
 .article-footer {
   font-size: 26px;
 }

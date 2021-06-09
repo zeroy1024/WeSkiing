@@ -23,7 +23,11 @@ const Index = () => {
       detail: 'Very happy travel',
       imageGroup: [
         '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
-        '//cdn.zeroy.net/img/weapp/banner/banner2.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner1.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner1.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner1.jpg',
       ],
     },
     {
@@ -34,7 +38,7 @@ const Index = () => {
       detail: 'Very happy travel',
       imageGroup: [
         '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
-        '//cdn.zeroy.net/img/weapp/banner/banner2.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner1.jpg',
       ],
     },
     {
@@ -45,7 +49,7 @@ const Index = () => {
       detail: 'Very happy travel',
       imageGroup: [
         '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
-        '//cdn.zeroy.net/img/weapp/banner/banner2.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner1.jpg',
       ],
     },
     {
@@ -56,7 +60,7 @@ const Index = () => {
       detail: 'Very happy travel',
       imageGroup: [
         '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
-        '//cdn.zeroy.net/img/weapp/banner/banner2.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner1.jpg',
       ],
     },
     {
@@ -67,7 +71,7 @@ const Index = () => {
       detail: 'Very happy travel',
       imageGroup: [
         '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
-        '//cdn.zeroy.net/img/weapp/banner/banner2.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner1.jpg',
       ],
     },
     {
@@ -78,7 +82,7 @@ const Index = () => {
       detail: 'Very happy travel',
       imageGroup: [
         '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
-        '//cdn.zeroy.net/img/weapp/banner/banner2.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner1.jpg',
       ],
     },
   ];
@@ -91,7 +95,7 @@ const Index = () => {
       detail: '这玩意真的是太棒了',
       imageGroup: [
         '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
-        '//cdn.zeroy.net/img/weapp/banner/banner2.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner1.jpg',
       ],
     },
     {
@@ -102,7 +106,7 @@ const Index = () => {
       detail: '这玩意真的是太棒了',
       imageGroup: [
         '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
-        '//cdn.zeroy.net/img/weapp/banner/banner2.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner1.jpg',
       ],
     },
     {
@@ -112,7 +116,7 @@ const Index = () => {
       tags: ['好物推荐', '种草'],
       imageGroup: [
         '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
-        '//cdn.zeroy.net/img/weapp/banner/banner2.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner1.jpg',
       ],
     },
     {
@@ -121,7 +125,7 @@ const Index = () => {
       title: 'EasyTitle',
       imageGroup: [
         '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
-        '//cdn.zeroy.net/img/weapp/banner/banner2.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner1.jpg',
       ],
     },
     {
@@ -132,7 +136,7 @@ const Index = () => {
       detail: '这玩意真的是太棒了',
       imageGroup: [
         '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
-        '//cdn.zeroy.net/img/weapp/banner/banner2.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner1.jpg',
       ],
     },
   ];

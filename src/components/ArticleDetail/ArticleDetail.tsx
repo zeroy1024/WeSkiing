@@ -1,11 +1,11 @@
-import { Image, View } from '@tarojs/components';
+import {Image, View} from '@tarojs/components';
 
 import './ArticleDetail.scss';
-import { AtAvatar, AtDivider, AtIcon } from 'taro-ui';
-import { PropsWithChildren } from 'react';
+import {AtAvatar, AtDivider, AtIcon} from 'taro-ui';
+import {PropsWithChildren} from 'react';
 
-import { navigateTo } from '@tarojs/taro';
-import { IArticleListItemProps } from '../../interface';
+import {navigateTo} from '@tarojs/taro';
+import {IArticleListItemProps} from '../../interface';
 
 
 const ArticleDetail = (props: PropsWithChildren<IArticleListItemProps>) => {
@@ -34,7 +34,7 @@ const ArticleDetail = (props: PropsWithChildren<IArticleListItemProps>) => {
           className={'author-avatar'}
           image={'//cdn.zeroy.net/img/weapp/article/head/head.png'}
           size={'small'}
-          circle />
+          circle/>
         <View className={'author-other'}>
           <View className={'author-name'}>{props.author}</View>
           <View className={'release-time'}>{props.releaseTime}</View>
@@ -48,7 +48,7 @@ const ArticleDetail = (props: PropsWithChildren<IArticleListItemProps>) => {
         <View className={'article-img-group'}>
           {props.imageGroup.map((item, index) => {
             return (
-              <Image src={item} className={'article-img'} />
+              <Image src={item} mode={"aspectFill"} className={'article-img'}/>
             );
           })}
         </View>
@@ -58,20 +58,20 @@ const ArticleDetail = (props: PropsWithChildren<IArticleListItemProps>) => {
           {props.tags.map((item, index) => {
             return (
               <View className={'article-topic-item'}>
-                <AtIcon value={'tag'} color={'#1E90FF'} size={'12px'} /> {item}
+                <AtIcon value={'tag'} color={'#1E90FF'} size={'12px'}/> {item}
               </View>
             );
           })}
         </View>
         <View className={'article-toolbar'}>
           <View className={'article-watch'} onClick={articleDetails}>
-            <AtIcon value={'eye'} color={'#8a8a8a'} size={'16px'} /> 30
+            <AtIcon value={'eye'} color={'#8a8a8a'} size={'16px'}/> 30
           </View>
           <View className={'article-comments'} onClick={articleDetails}>
-            <AtIcon value={'message'} color={'#8a8a8a'} size={'16px'} /> 30
+            <AtIcon value={'message'} color={'#8a8a8a'} size={'16px'}/> 30
           </View>
           <View className={'article-heart'}>
-            <AtIcon value={'heart'} color={'#8a8a8a'} size={'16px'} /> 30
+            <AtIcon value={'heart'} color={'#8a8a8a'} size={'16px'}/> 30
           </View>
         </View>
       </View>
