@@ -21,6 +21,10 @@ const Index = () => {
       title: 'EasyTitle',
       tags: ['滑雪', '摄影'],
       detail: 'Very happy travel',
+      imageGroup: [
+        '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner2.jpg',
+      ],
     },
     {
       author: 'ZeroY',
@@ -28,6 +32,10 @@ const Index = () => {
       title: 'EasyTitle',
       tags: ['滑雪', '摄影'],
       detail: 'Very happy travel',
+      imageGroup: [
+        '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner2.jpg',
+      ],
     },
     {
       author: 'ZeroY',
@@ -35,6 +43,10 @@ const Index = () => {
       title: 'EasyTitle',
       tags: ['滑雪', '摄影'],
       detail: 'Very happy travel',
+      imageGroup: [
+        '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner2.jpg',
+      ],
     },
     {
       author: 'ZeroY',
@@ -42,6 +54,10 @@ const Index = () => {
       title: 'EasyTitle',
       tags: ['滑雪', '摄影'],
       detail: 'Very happy travel',
+      imageGroup: [
+        '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner2.jpg',
+      ],
     },
     {
       author: 'ZeroY',
@@ -49,6 +65,10 @@ const Index = () => {
       title: 'EasyTitle',
       tags: ['滑雪', '摄影'],
       detail: 'Very happy travel',
+      imageGroup: [
+        '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner2.jpg',
+      ],
     },
     {
       author: 'ZeroY',
@@ -56,6 +76,10 @@ const Index = () => {
       title: 'EasyTitle',
       tags: ['滑雪', '摄影'],
       detail: 'Very happy travel',
+      imageGroup: [
+        '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner2.jpg',
+      ],
     },
   ];
   const followArticle: IArticleListItemProps[] = [
@@ -65,6 +89,10 @@ const Index = () => {
       title: 'EasyTitle',
       tags: ['好物推荐', '种草'],
       detail: '这玩意真的是太棒了',
+      imageGroup: [
+        '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner2.jpg',
+      ],
     },
     {
       author: 'ZeroY',
@@ -72,17 +100,29 @@ const Index = () => {
       title: 'EasyTitle',
       tags: ['好物推荐', '种草'],
       detail: '这玩意真的是太棒了',
+      imageGroup: [
+        '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner2.jpg',
+      ],
     },
     {
       author: 'ZeroY',
       releaseTime: '2020-03-01 19:20:00',
       title: 'EasyTitle',
       tags: ['好物推荐', '种草'],
+      imageGroup: [
+        '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner2.jpg',
+      ],
     },
     {
       author: 'ZeroY',
       releaseTime: '2021-02-01 19:20:00',
       title: 'EasyTitle',
+      imageGroup: [
+        '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner2.jpg',
+      ],
     },
     {
       author: 'ZeroY',
@@ -90,6 +130,10 @@ const Index = () => {
       title: 'EasyTitle',
       tags: ['好物推荐', '种草'],
       detail: '这玩意真的是太棒了',
+      imageGroup: [
+        '//cdn.zeroy.net/img/weapp/banner/banner.jpg',
+        '//cdn.zeroy.net/img/weapp/banner/banner2.jpg',
+      ],
     },
   ];
 

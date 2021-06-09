@@ -1,7 +1,7 @@
 {
 	"miniprogramRoot": "dist/",
-	"projectname": "we-app",
-	"description": "weApp",
+	"projectname": "weskiing",
+	"description": "Weskiing We APP",
 	"appid": "touristappid",
 	"setting": {
 		"urlCheck": true,

@@ -46,7 +46,11 @@ const ArticleDetail = (props: PropsWithChildren<IArticleListItemProps>) => {
           {props.detail}
         </View>
         <View className={'article-img-group'}>
-
+          {props.imageGroup.map((item, index) => {
+            return (
+              <Image src={item} className={'article-img'} />
+            );
+          })}
         </View>
       </View>
       <View className={'article-footer'}>
