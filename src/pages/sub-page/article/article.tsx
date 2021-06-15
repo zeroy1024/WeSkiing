@@ -49,6 +49,7 @@ const Article = () => {
           />
         </View>
       </View>
+      <View style={{ height: '100rpx' }} />
       <View className={'send-comments'}>
         <Input className={'comments-input'} placeholder={'请输入...'} />
         <Button className={'comments-submit'}>发送</Button>

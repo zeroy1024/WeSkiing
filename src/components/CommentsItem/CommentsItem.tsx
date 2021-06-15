@@ -1,6 +1,6 @@
 import './CommentsItem.scss';
 import { View } from '@tarojs/components';
-import { AtAvatar, AtDivider } from 'taro-ui';
+import { AtAvatar} from 'taro-ui';
 import { PropsWithChildren } from 'react';
 import { ICommentsItemProps } from '../../interface';
 
@@ -22,7 +22,6 @@ const CommentsItem = (props: PropsWithChildren<ICommentsItemProps>) => {
       <View className={'comments-text'}>
         {props.commentsText}
       </View>
-      <AtDivider />
     </View>
   );
 };

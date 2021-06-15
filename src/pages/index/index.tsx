@@ -1,4 +1,4 @@
-import { View,  Swiper, SwiperItem, Image } from '@tarojs/components';
+import { View, Swiper, SwiperItem, Image } from '@tarojs/components';
 
 import './index.scss';
 import ArticleDetail from '../../components/ArticleDetail/ArticleDetail';
@@ -184,6 +184,7 @@ const Index = () => {
                   </>
                 );
               })}
+              <View className={'end-tip'}>已经没有更多了！</View>
             </View>
           </View>
         </AtTabsPane>
@@ -206,6 +207,7 @@ const Index = () => {
                   </>
                 );
               })}
+              <View className={'end-tip'}>已经没有更多了！</View>
             </View>
           </View>
         </AtTabsPane>

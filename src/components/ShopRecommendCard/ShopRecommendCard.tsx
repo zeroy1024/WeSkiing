@@ -22,7 +22,7 @@ const ShopRecommendCard = () => {
           style={{ backgroundColor: '#E2EEFF' }}>
           <View className={'right-content'}>
             <View className={'right-text'}>
-              <View className={'title'}>乐凯奇专业滑雪板</View>
+              <View className={'text'}>乐凯奇专业滑雪板</View>
               <View className={'price'}>￥2368起</View>
             </View>
             <Image src={'//cdn.zeroy.net/img/weapp/shop/2.png'} className={'right-img'} />
@@ -33,7 +33,7 @@ const ShopRecommendCard = () => {
           style={{ backgroundColor: '#F3F1FF' }}>
           <View className={'right-content'}>
             <View className={'right-text'}>
-              <View className={'title'}>乐凯奇专业滑雪板</View>
+              <View className={'text'}>乐凯奇专业滑雪板</View>
               <View className={'price'}>￥2368起</View>
             </View>
             <Image src={'//cdn.zeroy.net/img/weapp/shop/3.png'} className={'right-img'} />
@@ -44,7 +44,7 @@ const ShopRecommendCard = () => {
           style={{ backgroundColor: '#FFF2F2' }}>
           <View className={'right-content'}>
             <View className={'right-text'}>
-              <View className={'title'}>乐凯奇专业滑雪板</View>
+              <View className={'text'}>乐凯奇专业滑雪板</View>
               <View className={'price'}>￥2368起</View>
             </View>
             <Image src={'//cdn.zeroy.net/img/weapp/shop/4.png'} className={'right-img'} />

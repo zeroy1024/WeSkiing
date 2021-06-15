@@ -17,19 +17,19 @@ const Me = () => {
         <View className={'personal-detail'}>
           <View className={'personal-detail-item'}>
             <Image className={'img'} src={'//cdn.zeroy.net/img/weapp/icon/vip.png'} />
-            <View className={'title'}>会员</View>
+            <View className={'text'}>会员</View>
           </View>
           <View className={'personal-detail-item'}>
             <Image className={'img'} src={'//cdn.zeroy.net/img/weapp/icon/red_envelope.png'} />
-            <View className={'title'}>红包</View>
+            <View className={'text'}>红包</View>
           </View>
           <View className={'personal-detail-item'}>
             <Image className={'img'} src={'//cdn.zeroy.net/img/weapp/icon/coupon.png'} />
-            <View className={'title'}>优惠券</View>
+            <View className={'text'}>优惠券</View>
           </View>
           <View className={'personal-detail-item'}>
             <Image className={'img'} src={'//cdn.zeroy.net/img/weapp/icon/wallet.png'} />
-            <View className={'title'}>钱包</View>
+            <View className={'text'}>钱包</View>
           </View>
         </View>
         <AtDivider />

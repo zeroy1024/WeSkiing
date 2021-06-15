@@ -1,4 +1,4 @@
-import {  View } from '@tarojs/components';
+import { View } from '@tarojs/components';
 import ArticleDetail from '../../components/ArticleDetail/ArticleDetail';
 
 import './circle.scss';
@@ -133,6 +133,7 @@ const Circle = () => {
                 </>
               );
             })}
+            <View className={'end-tip'}>已经没有更多了！</View>
           </View>
         </AtTabsPane>
         <AtTabsPane current={current} index={1}>
@@ -153,6 +154,7 @@ const Circle = () => {
                 </>
               );
             })}
+            <View className={'end-tip'}>已经没有更多了！</View>
           </View>
         </AtTabsPane>
         <AtTabsPane current={current} index={2}>
