@@ -33,3 +33,25 @@
 .tutorial {
   padding: 60px 36px;
 }
+
+.tutorial-items {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tutorial-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.tutorial-item Image {
+  //width: 60px;
+  height: 60px;
+  padding-bottom: 16px;
+}

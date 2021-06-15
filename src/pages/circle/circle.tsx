@@ -1,4 +1,4 @@
-import { Image, Swiper, SwiperItem, View } from '@tarojs/components';
+import {  View } from '@tarojs/components';
 import ArticleDetail from '../../components/ArticleDetail/ArticleDetail';
 
 import './circle.scss';

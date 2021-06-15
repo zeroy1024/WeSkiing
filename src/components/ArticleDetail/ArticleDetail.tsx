@@ -1,7 +1,7 @@
 import {Image, View} from '@tarojs/components';
 
 import './ArticleDetail.scss';
-import {AtAvatar, AtDivider, AtIcon} from 'taro-ui';
+import {AtAvatar, AtIcon} from 'taro-ui';
 import {PropsWithChildren} from 'react';
 
 import {navigateTo} from '@tarojs/taro';

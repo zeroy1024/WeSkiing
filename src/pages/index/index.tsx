@@ -1,4 +1,4 @@
-import { View, Text, Swiper, SwiperItem, Image } from '@tarojs/components';
+import { View,  Swiper, SwiperItem, Image } from '@tarojs/components';
 
 import './index.scss';
 import ArticleDetail from '../../components/ArticleDetail/ArticleDetail';

@@ -1,4 +1,4 @@
-import { Input, View } from '@tarojs/components';
+import { Image, Input, View } from '@tarojs/components';
 import { AtIcon, AtTabs, AtTabsPane } from 'taro-ui';
 import { getSystemInfoSync, navigateTo } from '@tarojs/taro';
 
@@ -31,29 +31,30 @@ const Tutorial = () => {
       <AtTabs current={current} tabList={tabList} onClick={(value) => setCurrent(value)}>
         <AtTabsPane current={current} index={0}>
           <View className={'tutorial'}>
-            123
-            123
-            123
-            123
-            123
-            123
-            123
-            12312
-            31
-            312
-            31
-            23
-            123
-            12
-            3
-            1212
-            312
-            3
-            12
+            <View className={'tutorial-items'}>
+              <View className={'tutorial-item'}>
+                <Image mode={'heightFix'} src={'//cdn.zeroy.net/img/weapp/icon/course-advanc.png'} />
+                进阶课
+              </View>
+              <View className={'tutorial-item'}>
+                <Image mode={'heightFix'} src={'//cdn.zeroy.net/img/weapp/icon/course-live.png'} />
+                直播课
+              </View>
+              <View className={'tutorial-item'}>
+                <Image mode={'heightFix'} src={'//cdn.zeroy.net/img/weapp/icon/course-teacher.png'} />
+                教练
+              </View>
+              <View className={'tutorial-item'}>
+                <Image mode={'heightFix'} src={'//cdn.zeroy.net/img/weapp/icon/course-shop.png'} />
+                商城
+              </View>
+            </View>
           </View>
         </AtTabsPane>
         <AtTabsPane current={current} index={1}>
-          123
+          <View className={'tutorial'}>
+
+          </View>
         </AtTabsPane>
       </AtTabs>
     </>

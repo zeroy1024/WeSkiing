@@ -2,7 +2,7 @@ import { getCurrentInstance } from '@tarojs/taro';
 
 import './article.scss';
 import { Button, Input, View } from '@tarojs/components';
-import { AtAvatar, AtDivider, AtIcon } from 'taro-ui';
+import { AtDivider } from 'taro-ui';
 import { IArticleListItemProps } from '../../../interface';
 import ArticleDetail from '../../../components/ArticleDetail/ArticleDetail';
 import CommentsItem from '../../../components/CommentsItem/CommentsItem';
@@ -23,7 +23,7 @@ const Article = () => {
       />
       <AtDivider />
       <View className={'comments-content'}>
-        <View className={'comments-title'}>
+        <View className={'title'}>
           全部评论
         </View>
         <View className={'comments-list'}>

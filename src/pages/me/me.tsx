@@ -1,4 +1,4 @@
-import { Image, Text, View } from '@tarojs/components';
+import { Image,  View } from '@tarojs/components';
 import './me.scss';
 import { getSystemInfoSync } from '@tarojs/taro';
 import { AtAvatar, AtDivider } from 'taro-ui';

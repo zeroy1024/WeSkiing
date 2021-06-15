@@ -1,7 +1,6 @@
 import './ProductItemCard.scss';
 import { Image, View } from '@tarojs/components';
 import { PropsWithChildren } from 'react';
-import { navigateTo } from '@tarojs/taro';
 import { IProductList } from '../../interface';
 
 const ProductItemCard = (props: PropsWithChildren<IProductList>) => {

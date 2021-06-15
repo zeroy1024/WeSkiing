@@ -1,5 +1,5 @@
-import {Input, View} from '@tarojs/components';
-import {AtTabs, AtIcon, AtTabsPane} from 'taro-ui';
+import { View} from '@tarojs/components';
+import {AtTabs, AtIcon} from 'taro-ui';
 import {PropsWithChildren} from 'react';
 
 import './SearchNavbar.scss';
