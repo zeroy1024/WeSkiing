@@ -1,0 +1,35 @@
+.shop-search-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  z-index: 10001;
+}
+
+.shop-search {
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  height: 84px;
+}
+
+.shop-search-icon {
+  position: absolute;
+  left: 70px;
+}
+
+.shop-search-input {
+  height: 60px;
+  line-height: 60px;
+  background: rgba(239, 239, 239, .8);
+  border-radius: 15PX;
+  padding-left: 70px;
+  margin: 0 20px;
+  font-size: 26px;
+  width: 60%;
+}
+
+.tutorial {
+  padding: 60px 36px;
+}
