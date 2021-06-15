@@ -14,6 +14,24 @@
   justify-content: space-between;
 }
 
+.search-group {
+  display: flex;
+  align-items: center;
+  height: 84px;
+  padding-left: 20px;
+}
+
+.search-group Input {
+  height: 50px;
+  line-height: 50px;
+  background: rgba(239, 239, 239, .8);
+  border-radius: 15PX;
+  padding-left: 20px;
+  margin: 0 20px;
+  font-size: 26px;
+  width: 50%;
+}
+
 .screen-bar {
   height: 60px;
   display: flex;

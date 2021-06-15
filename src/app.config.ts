@@ -2,10 +2,12 @@ export default {
   pages: [
     'pages/index/index',
     'pages/circle/circle',
+    'pages/tutorial/tutorial',
     'pages/shop/shop',
     'pages/me/me',
     'pages/sub-page/article/article',
     'pages/sub-page/product-list/product-list',
+    'pages/sub-page/search/search',
   ],
   window: {
     backgroundTextStyle: 'light',
@@ -28,6 +30,12 @@ export default {
         selectedIconPath: 'assets/img/icon/circle-active.png',
         pagePath: 'pages/circle/circle',
         text: '圈子',
+      },
+      {
+        iconPath: 'assets/img/icon/tutorial.png',
+        selectedIconPath: 'assets/img/icon/tutorial-active.png',
+        pagePath: 'pages/tutorial/tutorial',
+        text: '教学',
       },
       {
         iconPath: 'assets/img/icon/shop.png',
