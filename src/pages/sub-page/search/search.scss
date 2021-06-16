@@ -1,8 +1,12 @@
+.search {
+  padding: 0 46px;
+}
+
 .search-group {
   display: flex;
   align-items: center;
   height: 84px;
-  padding-left: 20px;
+  //padding-left: 20px;
 }
 
 .search-group Input {
@@ -17,7 +21,7 @@
 }
 
 .hot-search {
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .hot-search-title {

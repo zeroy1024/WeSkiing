@@ -129,7 +129,7 @@ const Circle = () => {
                     imageGroup={(item.imageGroup ? item.imageGroup : [])}
                     pageJump
                   />
-                  <AtDivider />
+                  <View className={'spacing'} />
                 </>
               );
             })}
@@ -150,7 +150,7 @@ const Circle = () => {
                     imageGroup={(item.imageGroup ? item.imageGroup : [])}
                     pageJump
                   />
-                  <AtDivider />
+                  <View className={'spacing'} />
                 </>
               );
             })}

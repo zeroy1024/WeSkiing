@@ -1,9 +1,11 @@
-import { Image, Input, View } from '@tarojs/components';
+import { Image, Input, Video, View } from '@tarojs/components';
 import { AtIcon, AtTabs, AtTabsPane } from 'taro-ui';
 import { getSystemInfoSync, navigateTo } from '@tarojs/taro';
 
 import './tutorial.scss';
 import { useState } from 'react';
+import TutorialVideo from '../../components/TutorialVideo/TutorialVideo';
+import { ITutorialVideoProps } from '../../interface';
 
 const Tutorial = () => {
   const statusBarHeight = getSystemInfoSync().statusBarHeight;
@@ -17,6 +19,65 @@ const Tutorial = () => {
   const tabList = [
     { title: '推荐' },
     { title: '会员精选' },
+  ];
+
+  const videoList: ITutorialVideoProps[] = [
+    {
+      title: '新手skier初级课程',
+      type: '初级',
+      time: '1分钟',
+      video: 'https://cdn.zeroy.net/video/ski.mp4',
+      image: 'https://cdn.zeroy.net/img/weapp/banner/banner.jpg',
+    },
+    {
+      title: '新手skier初级课程',
+      type: '初级',
+      time: '1分钟',
+      video: 'https://cdn.zeroy.net/video/ski.mp4',
+      image: 'https://cdn.zeroy.net/img/weapp/banner/banner.jpg',
+    },
+    {
+      title: '新手skier初级课程',
+      type: '初级',
+      time: '1分钟',
+      video: 'https://cdn.zeroy.net/video/ski.mp4',
+      image: 'https://cdn.zeroy.net/img/weapp/banner/banner.jpg',
+    },
+    {
+      title: '新手skier初级课程',
+      type: '初级',
+      time: '1分钟',
+      video: 'https://cdn.zeroy.net/video/ski.mp4',
+      image: 'https://cdn.zeroy.net/img/weapp/banner/banner.jpg',
+    },
+    {
+      title: '新手skier初级课程',
+      type: '初级',
+      time: '1分钟',
+      video: 'https://cdn.zeroy.net/video/ski.mp4',
+      image: 'https://cdn.zeroy.net/img/weapp/banner/banner.jpg',
+    },
+    {
+      title: '新手skier初级课程',
+      type: '初级',
+      time: '1分钟',
+      video: 'https://cdn.zeroy.net/video/ski.mp4',
+      image: 'https://cdn.zeroy.net/img/weapp/banner/banner.jpg',
+    },
+    {
+      title: '新手skier初级课程',
+      type: '初级',
+      time: '1分钟',
+      video: 'https://cdn.zeroy.net/video/ski.mp4',
+      image: 'https://cdn.zeroy.net/img/weapp/banner/banner.jpg',
+    },
+    {
+      title: '新手skier初级课程',
+      type: '初级',
+      time: '1分钟',
+      video: 'https://cdn.zeroy.net/video/ski.mp4',
+      image: 'https://cdn.zeroy.net/img/weapp/banner/banner.jpg',
+    },
   ];
 
   return (
@@ -48,6 +109,23 @@ const Tutorial = () => {
                 <Image mode={'heightFix'} src={'//cdn.zeroy.net/img/weapp/icon/course-shop.png'} />
                 商城
               </View>
+            </View>
+            <View className={'tutorial-video-list'}>
+              <View className={'title'}>为你推荐</View>
+              {videoList.map((item, index) => {
+                return (
+                  <>
+                    <TutorialVideo
+                      title={item.title}
+                      type={item.type}
+                      time={item.time}
+                      video={item.video}
+                      image={item.image}
+                    />
+                    <View className={'spacing'} />
+                  </>
+                );
+              })}
             </View>
           </View>
         </AtTabsPane>

@@ -41,3 +41,11 @@ export interface IProductSearch {
   searchValue: string
   productList: IProductList[]
 }
+
+export interface ITutorialVideoProps {
+  title: string
+  type: string
+  time: string
+  video: string
+  image: string
+}

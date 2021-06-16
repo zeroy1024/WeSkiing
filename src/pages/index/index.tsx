@@ -180,7 +180,7 @@ const Index = () => {
                       imageGroup={(item.imageGroup ? item.imageGroup : [])}
                       pageJump
                     />
-                    <AtDivider />
+                    <View className={'spacing'} />
                   </>
                 );
               })}
@@ -203,7 +203,7 @@ const Index = () => {
                       imageGroup={(item.imageGroup ? item.imageGroup : [])}
                       pageJump
                     />
-                    <AtDivider />
+                    <View className={'spacing'} />
                   </>
                 );
               })}

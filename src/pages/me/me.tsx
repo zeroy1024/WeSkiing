@@ -1,4 +1,4 @@
-import { Image,  View } from '@tarojs/components';
+import { Image, View } from '@tarojs/components';
 import './me.scss';
 import { getSystemInfoSync } from '@tarojs/taro';
 import { AtAvatar, AtDivider } from 'taro-ui';
@@ -37,6 +37,22 @@ const Me = () => {
           <View className={'other-list-item'}>
             <View className={'left'}>
               <Image src={'//cdn.zeroy.net/img/weapp/icon/order.png'} /> 我的订单
+            </View>
+            <View className={'right'}>
+              <Image src={'//cdn.zeroy.net/img/weapp/icon/arrow-right.png'} />
+            </View>
+          </View>
+          <View className={'other-list-item'}>
+            <View className={'left'}>
+              <Image src={'//cdn.zeroy.net/img/weapp/icon/my-tutorial.png'} /> 我的课程
+            </View>
+            <View className={'right'}>
+              <Image src={'//cdn.zeroy.net/img/weapp/icon/arrow-right.png'} />
+            </View>
+          </View>
+          <View className={'other-list-item'}>
+            <View className={'left'}>
+              <Image src={'//cdn.zeroy.net/img/weapp/icon/my-coach.png'} /> 我的教练
             </View>
             <View className={'right'}>
               <Image src={'//cdn.zeroy.net/img/weapp/icon/arrow-right.png'} />
